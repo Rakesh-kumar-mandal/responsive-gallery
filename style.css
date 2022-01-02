@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .image-container {
+    height: 20rem;
+    width: 15rem;
+    margin: 3rem;
+  }
+  
+  .closed {
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+  }
+  
+  .open {
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+  }
